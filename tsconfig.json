@@ -1,0 +1,20 @@
+{
+    "files": [],
+    "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
+    "include": ["src"],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "composite": true,
+        "types": ["vite/client"],
+        "paths": {
+            "@/*": ["src/*"],
+            "@data/*": ["src/data/*"],
+            "@context/*": ["src/context/*"],
+            "@layouts/*": ["src/layouts/*"],
+            "@pages/*": ["src/pages/*"],
+            "@components/*": ["src/components/*"],
+            "@elements/*": ["src/elements/*"],
+            "@assets/*": ["src/assets/*"]
+        }
+    }
+}
