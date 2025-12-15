@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Jura;
+    src: url('../fonts/Jura-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Playfair;
+    src: url('../fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    font-family: 'Jura', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Playfair', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: clamp(1.3rem, calc(10vw+1rem), 2rem);
+}
+
+h2 {
+    font-family: 'Playfair', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: clamp(1.1rem, calc(6vw+1rem), 1.5rem);
+}
+
+h3 {
+    font-family: 'Playfair', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: clamp(1rem, calc(2vw+1rem), 1.2rem);
+}

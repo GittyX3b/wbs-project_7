@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url); // get the resolved path to t
 const __dirname = path.dirname(__filename); // get the name of the directory
 
 export default defineConfig({
-    base: '/wbs-project_7/', // set github reponame for deploy
+    base: '/', // set github reponame for deploy
     build: {
         rollupOptions: {
             input: {
