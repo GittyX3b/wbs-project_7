@@ -11,7 +11,9 @@
             "@data/*": ["src/data/*"],
             "@context/*": ["src/context/*"],
             "@layouts/*": ["src/layouts/*"],
+            "@layouts": ["src/layouts/index.ts"],
             "@pages/*": ["src/pages/*"],
+            "@pages": ["pages/index.ts"],
             "@components/*": ["src/components/*"],
             "@elements/*": ["src/elements/*"],
             "@assets/*": ["src/assets/*"]
