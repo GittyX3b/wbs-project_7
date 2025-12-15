@@ -22,11 +22,11 @@ This project will help you practise integrating a third-party API, validating da
 
 ## 📝 Project Requirements:
 
-[] React + Vite (TypeScript) Setup Scaffold a new project with npm create vite@latest my-app -- --template react-ts
+[x] React + Vite (TypeScript) Setup Scaffold a new project with npm create vite@latest my-app -- --template react-ts
 
-[] Install Core Dependencies Add Zod via npm install zod.
+[x] Install Core Dependencies Add Zod via npm install zod.
 
-[] Artwork Zod Schema Create ArtworkSchema covering at least id, title, artist_title, image_id, with sensible defaults for missing data.
+[x] Artwork Zod Schema Create ArtworkSchema covering at least id, title, artist_title, image_id, with sensible defaults for missing data.
 
 [] API Fetch with Validation Implement a helper that queries the AIC search endpoint, parses the JSON, and validates it with ArtworkSchema. Reject or handle invalid data.
 
