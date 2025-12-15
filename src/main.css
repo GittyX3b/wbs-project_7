@@ -1,2 +1,10 @@
+@import 'tailwindcss';
+@plugin 'daisyui' {
+    themes:
+        wireframe --default,
+        dim --prefersdark,
+        nord;
+}
+
 @import '@/assets/styles/colors.css';
 @import '@/assets/styles/text.css';
