@@ -28,11 +28,11 @@ This project will help you practise integrating a third-party API, validating da
 
 [x] Artwork Zod Schema Create ArtworkSchema covering at least id, title, artist_title, image_id, with sensible defaults for missing data.
 
-[] API Fetch with Validation Implement a helper that queries the AIC search endpoint, parses the JSON, and validates it with ArtworkSchema. Reject or handle invalid data.
+[x] API Fetch with Validation Implement a helper that queries the AIC search endpoint, parses the JSON, and validates it with ArtworkSchema. Reject or handle invalid data.
 
 [] Search Interface Create a search interface that allows users to query the API.
 
-[] ArtworkCard Component Build a reusable ArtworkCard component to display individual pieces of art from the search results. This component will show the image, title, and artist.
+[x] ArtworkCard Component Build a reusable ArtworkCard component to display individual pieces of art from the search results. This component will show the image, title, and artist.
 
 [] Gallery Component Develop a Gallery component that will display the collection of artworks the user has saved.
 
