@@ -6,7 +6,7 @@ type DrawerProps = {
 
 const Drawer = ({ className }: DrawerProps) => {
     return (
-        <aside className={`drawer lg:drawer-open ${className}`}>
+        <aside className={`drawer lg:drawer-open w-min ${className}`}>
             <input id='my-drawer-4' type='checkbox' className='drawer-toggle' />
             <div className='drawer-side is-drawer-close:overflow-visible'>
                 <label
@@ -20,7 +20,7 @@ const Drawer = ({ className }: DrawerProps) => {
                         {/* List item */}
                         <li>
                             <button
-                                className='is-drawer-close:tooltip is-drawer-close:tooltip-right'
+                                className='is-drawer-close:tooltip is-drawer-close:tooltip-right flex h-10 items-center'
                                 data-tip='Homepage'
                             >
                                 <House size={'1.2rem'} />
@@ -31,7 +31,7 @@ const Drawer = ({ className }: DrawerProps) => {
                         {/* List item */}
                         <li>
                             <button
-                                className='is-drawer-close:tooltip is-drawer-close:tooltip-right'
+                                className='is-drawer-close:tooltip is-drawer-close:tooltip-right flex h-10 items-center'
                                 data-tip='Search'
                             >
                                 <Search size={'1.2rem'} />
@@ -42,7 +42,7 @@ const Drawer = ({ className }: DrawerProps) => {
                         {/* List item */}
                         <li>
                             <button
-                                className='is-drawer-close:tooltip is-drawer-close:tooltip-right'
+                                className='is-drawer-close:tooltip is-drawer-close:tooltip-right flex h-10 items-center'
                                 data-tip='Favorites'
                             >
                                 <Star size={'1.2rem'} />
