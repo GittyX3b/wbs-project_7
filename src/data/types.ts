@@ -6,6 +6,9 @@ export type FetchPageContextValue = {
     setPage: React.Dispatch<React.SetStateAction<number>>;
     limit: FetchPageLimit;
     setLimit: React.Dispatch<React.SetStateAction<FetchPageLimit>>;
+    totalPages: number;
+    totalArtworks: number;
+    loading: boolean;
     data: ArtworkDetail[] | null;
 };
 
