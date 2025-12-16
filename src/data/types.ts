@@ -13,7 +13,8 @@ export type FetchPageProviderProps = {
     children: ReactNode;
 };
 
-export type FetchPageLimit = 12 | 24 | 48 | 96;
+export const FETCH_PAGE_LIMITS = [12, 24, 48, 96] as const;
+export type FetchPageLimit = (typeof FETCH_PAGE_LIMITS)[number];
 
 export const ArtworkDetailSchema = z.object({
     id: z.number(),
@@ -31,7 +32,6 @@ export const ArtworkDetailSchema = z.object({
 export type ArtworkDetail = z.infer<typeof ArtworkDetailSchema>;
 
 export const ArtworksListSchema = z.object({
-    pagination: z.object({}),
     data: z.array(ArtworkDetailSchema),
 });
 

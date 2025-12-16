@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router';
 
-import { Drawer, Footer, Header } from '@components';
+import { Drawer, Footer, Header } from '../components';
 
 const MainLayout = () => {
     return (

@@ -1,6 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import './main.css';
 
@@ -9,10 +9,10 @@ import { FetchPageProvider } from './data/context/FetchPageProvider';
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
-        <BrowserRouter>
+        <HashRouter>
             <FetchPageProvider>
                 <App />
             </FetchPageProvider>
-        </BrowserRouter>
+        </HashRouter>
     </StrictMode>,
 );
