@@ -4,6 +4,11 @@
 
 <br/>
 
+![screencast-frontend.gif](https://github.com/GittyX3b/wbs-project_7/screencast-frontend.gif)
+
+<br/>
+<br/>
+
 ## Description:
 
 Your task is to create an Art Institute Explorer application. The goal is to create a tool for searching the Art Institute of Chicago’s collection, saving favourite artworks to a personal gallery, and adding notes.
@@ -46,9 +51,7 @@ This project will help you practise integrating a third-party API, validating da
 
 [] Type-Safe State Maintain TypeScript types throughout components and state, re-using the Zod-inferred types where possible.
 
-
 <br/><br/>
-
 
 ### 🤓 Tips for Effective Planning
 
