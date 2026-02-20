@@ -4,7 +4,7 @@
 
 <br/>
 
-![screencast-frontend.gif](https://github.com/GittyX3b/wbs-project_7/screencast-frontend.gif)
+![screencast-frontend.gif](https://github.com/GittyX3b/wbs-project_7/blob/main/screencast-frontend.gif)
 
 <br/>
 <br/>
